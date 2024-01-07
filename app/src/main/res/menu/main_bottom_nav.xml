@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:contentDescription="Home"
+        android:icon="@drawable/round_home_24"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/categoryFragment"
+        android:contentDescription="Category"
+        android:icon="@drawable/baseline_category_24"
+        android:title="Category"/>
+
+    <item
+        android:id="@+id/curateFragment"
+        android:contentDescription="Curate"
+        android:icon="@drawable/baseline_android_24"
+        android:title="Curate"/>
+
+    <item
+        android:id="@+id/saleFragment"
+        android:contentDescription="Sale"
+        android:icon="@drawable/baseline_flash_on_24"
+        android:title="Sale"/>
+
+    <item
+        android:id="@+id/moreFragment"
+        android:contentDescription="More"
+        android:icon="@drawable/baseline_android_24"
+        android:title="More"/>
+</menu>

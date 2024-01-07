@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/new_demo"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.dc.demo.ui.fragment.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.dc.demo.ui.fragment.CategoryFragment"
+        android:label="CategoryFragment"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/curateFragment"
+        android:name="com.dc.demo.ui.fragment.CurateFragment"
+        android:label="CurateFragment"
+        tools:layout="@layout/fragment_curate" />
+    <fragment
+        android:id="@+id/moreFragment"
+        android:name="com.dc.demo.ui.fragment.MoreFragment"
+        android:label="MoreFragment"
+        tools:layout="@layout/fragment_more" />
+    <fragment
+        android:id="@+id/saleFragment"
+        android:name="com.dc.demo.ui.fragment.SaleFragment"
+        android:label="SaleFragment"
+        tools:layout="@layout/fragment_sale" />
+</navigation>
